@@ -17,23 +17,21 @@
                             CssClass="report-list" CellPadding="8" 
                             AutoPostBack="True">
                             <asp:ListItem Value="2" Selected="True">บัญชีรายชื่อเครื่องมือเครื่องจักร (CI-F-PD-01)</asp:ListItem>
-                            <asp:ListItem Value="WI">วิธีการปฎิบัติงาน Work Instruction (CI-F-PD-09)</asp:ListItem>
-                            <asp:ListItem Value="3">การบำรุงรักษาเครื่องจักร (CI-F-PD-08)</asp:ListItem>
-                            <asp:ListItem Value="4">แผนการบำรุงเครื่องจักร (CI-F-PD-07)</asp:ListItem>
                             <asp:ListItem Value="5">ตัดเครื่องจักรออกจากทะเบียนประวัติ (CI-F-PD-06)</asp:ListItem>
-                            <asp:ListItem Value="6">การตรวจสอบดูแลเครื่องมือเครื่องจักรประจำวัน Daily Check Sheet (CI-F-PD-03)</asp:ListItem>
-                            <asp:ListItem Value="7">การตรวจสอบดูแลเครื่องมือเครื่องจักรประจำวัน Daily Check Sheet (CI-F-PD-03)</asp:ListItem>
-                            <asp:ListItem Value="8">การตรวจสอบดูแลเครื่องมือเครื่องจักรประจำวัน Daily Check Sheet (CI-F-PD-03)</asp:ListItem>
-                            <asp:ListItem Value="9">การตรวจสอบดูแลเครื่องมือเครื่องจักรประจำวัน Daily Check Sheet (CI-F-PD-03)</asp:ListItem>
-                            <asp:ListItem Value="10">การตรวจสอบดูแลเครื่องมือเครื่องจักรประจำวัน Daily Check Sheet (CI-F-PD-03)</asp:ListItem>
-                            <asp:ListItem Value="11">การตรวจสอบดูแลเครื่องมือเครื่องจักรประจำวัน Daily Check Sheet (CI-F-PD-03)</asp:ListItem>
-                            <asp:ListItem Value="12">การตรวจสอบดูแลเครื่องมือเครื่องจักรประจำวัน Daily Check Sheet (CI-F-PD-03)</asp:ListItem>
+                            <asp:ListItem Value="6">บัญชีทรายชื่อลายเครื่องจักร/เครื่องจักรจดทะเบียน (CI-F-PD-03)</asp:ListItem>
+                            <asp:ListItem Value="7">รายการตรวจสอบ/การบำรุงรักษา เครื่องมือ/เครื่องจักร (CI-F-PD-03)</asp:ListItem>
+                            <asp:ListItem Value="8">แผนการบำรุงรักษาเครื่องมือ/เครื่องจักรประจำเดือน (CI-F-PD-03)</asp:ListItem>
+                            <asp:ListItem Value="9">ใบขออนุมัติการตัดทรัพย์สินออกจากทะเบียน (CI-F-PD-03)</asp:ListItem>
+                            <asp:ListItem Value="10">ประวัติเครื่องจักร (CI-F-PD-03)</asp:ListItem>
+                            <asp:ListItem Value="11">ใบตรวจสอบและส่งมอบเครื่องจักร (CI-F-PD-03)</asp:ListItem>
+                            <asp:ListItem Value="12">ใบแจ้งซ่อม (CI-F-PD-03)</asp:ListItem>
+
                         </asp:RadioButtonList>
                     </div>
                 </div>
             </div>
-         <asp:LinkButton ID="btnPrint" runat="server" CssClass="btn btn-light btn-lg" ToolTip="Print"
-             OnClick="btnPrint_Click"><i class="fas fa-file-export me-2"></i> พิมพ์</asp:LinkButton>
+            <asp:LinkButton ID="btnPrint" runat="server" CssClass="btn btn-light btn-lg" ToolTip="Print"
+                OnClick="btnPrint_Click"><i class="fas fa-file-export me-2"></i> พิมพ์</asp:LinkButton>
             
         </div>
     </div>
