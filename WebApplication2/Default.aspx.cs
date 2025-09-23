@@ -28,6 +28,10 @@ namespace WebApplication2
             }
             else if (this.rbBtnListTypeReport.SelectedValue == "2") // บัญชีรายชื่อเครื่องมือเครื่องจักร (CI-F-PD-01)
             {
+                Report2();
+            }
+            else if (this.rbBtnListTypeReport.SelectedValue == "3") // บัญชีรายชื่อเครื่องมือเครื่องจักร (CI-F-PD-01)
+            {
                 ReportMachineList();
             }
 
@@ -83,6 +87,15 @@ namespace WebApplication2
         {
             string pageUrl = "view_report.aspx?";
             string pMachineType = "1";
+            string pDept = "";
+            string pMachineCode = "";
+            string parameter = pageUrl + "pMachineType=" + pMachineType + "&pMachineCode=" + pMachineCode + "&pDept=" + pDept;
+            ScriptManager.RegisterStartupScript(this, this.GetType(), "Report", String.Format("window.open({0});", "'" + parameter + "'"), true);
+        }
+        private void Report2()
+        {
+            string pageUrl = "view_report.aspx?";
+            string pMachineType = "2";
             string pDept = "";
             string pMachineCode = "";
             string parameter = pageUrl + "pMachineType=" + pMachineType + "&pMachineCode=" + pMachineCode + "&pDept=" + pDept;

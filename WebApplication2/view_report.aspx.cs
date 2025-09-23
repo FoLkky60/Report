@@ -42,6 +42,10 @@ namespace WebApplication2
                     }
                     else if (reportType == "2")
                     {
+                        crpt.Load(Server.MapPath("/Report/Report2.rpt"));
+                    }
+                    else if (reportType == "3")
+                    {
                         crpt.Load(Server.MapPath("/Report/MachineList.rpt"));
                     }
                     else if (reportType == "5")
