@@ -16,15 +16,15 @@
                         <asp:RadioButtonList ID="rbBtnListTypeReport" runat="server" 
                             CssClass="report-list" CellPadding="8" 
                             AutoPostBack="True">
-                            <asp:ListItem Value="1" Selected="True">บัญชีรายชื่อเครื่องมือเครื่องจักร (CI-F-PD-01)</asp:ListItem>
-                            <asp:ListItem Value="5">ตัดเครื่องจักรออกจากทะเบียนประวัติ (CI-F-PD-06)</asp:ListItem>
                             <asp:ListItem Value="2" Selected="True">แบบฟอร์มการตรวจเครื่องมือเครื่องจักร (PB-F-PD-36)</asp:ListItem>
+                            <asp:ListItem Value="6">บัญชีทรายชื่อลายเครื่องจักร/เครื่องจักรจดทะเบียน (CI-F-PD-37)</asp:ListItem>
                             <asp:ListItem Value="10">ประวัติเครื่องจักร (CI-F-PD-38)</asp:ListItem>
                             <asp:ListItem Value="9">ใบขออนุมัติการตัดทรัพย์สินออกจากทะเบียน (CI-F-PD-39)</asp:ListItem>
                             <asp:ListItem Value="12">ใบแจ้งซ่อม (CI-F-PD-40)</asp:ListItem>
                             <asp:ListItem Value="7">รายการตรวจสอบ/การบำรุงรักษา เครื่องมือ/เครื่องจักร (CI-F-PD-41)</asp:ListItem>
-                            <asp:ListItem Value="6">บัญชีทรายชื่อลายเครื่องจักร/เครื่องจักรจดทะเบียน (CI-F-PD-42)</asp:ListItem>
+                            <asp:ListItem Value="5">ตัดเครื่องจักรออกจากทะเบียนประวัติ (CI-F-PD-42)</asp:ListItem>
                             <asp:ListItem Value="8">แผนการบำรุงรักษาเครื่องมือ/เครื่องจักรประจำเดือน (CI-F-PD-43)</asp:ListItem>
+                            <asp:ListItem Value="1" Selected="True">บัญชีรายชื่อเครื่องมือเครื่องจักร (CI-F-PD-44)</asp:ListItem>
                             <asp:ListItem Value="11">ใบตรวจสอบและส่งมอบเครื่องจักร (CI-F-PD-45)</asp:ListItem>
                         </asp:RadioButtonList>
                     </div>
